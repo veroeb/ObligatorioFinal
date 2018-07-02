@@ -17,13 +17,7 @@ namespace Obligatorio.Models
             if (Instancia == null)
             {
                 Instancia = new Inmobiliaria();
-                manejadorDeArchivos = new ManejadorDeArchivos();
-                string path = $"{AppDomain.CurrentDomain.BaseDirectory}Listado de propiedades.txt";
-
-                if (File.Exists(path))
-                {
-                    ManagerInmuebles.ListaInmuebles = manejadorDeArchivos.InfoArchivo(path);
-                }
+                
             }
 
             return Instancia;

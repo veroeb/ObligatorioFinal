@@ -16,3 +16,6 @@
 7/2/2018 2:59:04 PM - Nombre: hfdgh, CI: 363, Correo: dsfg, Telefono: 32543
 7/2/2018 3:01:16 PM - Nombre: dsfgd, CI: Ci, Correo: sdfgsdfg, Telefono: Numero
 7/2/18 4:34:36 PM - Nombre: fsdfdsf, CI: 234234, Correo: 3242, Telefono: 242342
+2/7/2018 18:51:58 - Nombre: Joaquin, CI: 567890, Correo: joaquin@gmail.com, Telefono: 0999900090
+2/7/2018 18:53:17 - Nombre: x, CI: y, Correo: Correo, Telefono: Numero
+2/7/2018 18:58:01 - Nombre: vero, CI: 587452, Correo: Correo, Telefono: 58745

@@ -19,6 +19,7 @@ namespace Obligatorio.Views
         Inmueble InmuebleActual;
         Inmobiliaria inmobiliaria = Inmobiliaria.GetInmobiliaria();
         LaunchScreen launchScreen = new LaunchScreen();
+        ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
 
 
         //ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
@@ -124,7 +125,7 @@ namespace Obligatorio.Views
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            //gridInmuebles.DataSource = null;
+            gridInmuebles.DataSource = null;
             List<Inmueble> inmuebles = inmobiliaria.GetListaInmuebles();
             gridInmuebles.DataSource = inmuebles;
         }
@@ -171,6 +172,17 @@ namespace Obligatorio.Views
                 MessageBox.Show("No existen imagenes para mostrar");
             else
                 pbFotos.Load(seleccionado.Fotos[0]);
+        }
+
+        private void button4_Click_2(object sender, EventArgs e)
+        {
+            manejadorDeArchivos = new ManejadorDeArchivos();
+            string path = $"{AppDomain.CurrentDomain.BaseDirectory}Listado de propiedades.txt";
+
+            if (File.Exists(path))
+            {
+                ManagerInmuebles.ListaInmuebles = manejadorDeArchivos.InfoArchivo(path);
+            }
         }
     }
 }

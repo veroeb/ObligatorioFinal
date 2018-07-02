@@ -66,6 +66,9 @@
             this.btnMostrarFoto = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -103,17 +106,18 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(176, 101);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(212, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(167, 13);
+            this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 22;
-            this.label5.Text = "Agregue el nombre del Comprador";
+            this.label5.Text = "Iniciar sesion ";
             // 
             // btnAgregarComprador
             // 
-            this.btnAgregarComprador.Location = new System.Drawing.Point(223, 226);
+            this.btnAgregarComprador.Location = new System.Drawing.Point(215, 226);
             this.btnAgregarComprador.Name = "btnAgregarComprador";
-            this.btnAgregarComprador.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregarComprador.Size = new System.Drawing.Size(83, 23);
             this.btnAgregarComprador.TabIndex = 21;
             this.btnAgregarComprador.Text = "Agregar";
             this.btnAgregarComprador.UseVisualStyleBackColor = true;
@@ -415,11 +419,11 @@
             // 
             this.gridInmuebles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridInmuebles.GridColor = System.Drawing.SystemColors.Control;
-            this.gridInmuebles.Location = new System.Drawing.Point(360, 17);
+            this.gridInmuebles.Location = new System.Drawing.Point(344, 17);
             this.gridInmuebles.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gridInmuebles.Name = "gridInmuebles";
             this.gridInmuebles.RowTemplate.Height = 33;
-            this.gridInmuebles.Size = new System.Drawing.Size(372, 232);
+            this.gridInmuebles.Size = new System.Drawing.Size(388, 232);
             this.gridInmuebles.TabIndex = 26;
             // 
             // pbFotos
@@ -450,12 +454,12 @@
             // 
             // btnMostrarFoto
             // 
-            this.btnMostrarFoto.Location = new System.Drawing.Point(761, 211);
+            this.btnMostrarFoto.Location = new System.Drawing.Point(761, 252);
             this.btnMostrarFoto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMostrarFoto.Name = "btnMostrarFoto";
             this.btnMostrarFoto.Size = new System.Drawing.Size(136, 40);
             this.btnMostrarFoto.TabIndex = 30;
-            this.btnMostrarFoto.Text = "Ver fotos";
+            this.btnMostrarFoto.Text = "Mostrar foto";
             this.btnMostrarFoto.UseVisualStyleBackColor = true;
             this.btnMostrarFoto.Click += new System.EventHandler(this.btnMostrarFoto_Click);
             // 
@@ -475,11 +479,40 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 32;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(761, 210);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(136, 37);
+            this.button4.TabIndex = 33;
+            this.button4.Text = "Cargar archivo";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_2);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(173, 258);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 13);
+            this.label7.TabIndex = 34;
+            this.label7.Text = "Comprador Actual";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(270, 255);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 35;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(949, 488);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnMostrarFoto);
@@ -558,5 +591,8 @@
         private System.Windows.Forms.Button btnMostrarFoto;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
