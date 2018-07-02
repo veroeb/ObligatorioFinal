@@ -47,19 +47,17 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(106, 117);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(53, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 37);
+            this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "POP 3";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(114, 17);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox2.Location = new System.Drawing.Point(57, 9);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(110, 94);
+            this.pictureBox2.Size = new System.Drawing.Size(55, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
@@ -70,9 +68,8 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1600, 21);
+            this.panel2.Size = new System.Drawing.Size(751, 11);
             this.panel2.TabIndex = 8;
             // 
             // panel3
@@ -80,10 +77,9 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(135)))));
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(116, 23);
-            this.panel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel3.Location = new System.Drawing.Point(58, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 171);
+            this.panel3.Size = new System.Drawing.Size(80, 89);
             this.panel3.TabIndex = 3;
             // 
             // label1
@@ -91,19 +87,17 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(20, 123);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(10, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 37);
+            this.label1.Size = new System.Drawing.Size(59, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "POP 3";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(28, 23);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(110, 94);
+            this.pictureBox1.Size = new System.Drawing.Size(55, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -116,10 +110,9 @@
             this.btnInmueble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInmueble.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInmueble.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnInmueble.Location = new System.Drawing.Point(824, 262);
-            this.btnInmueble.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnInmueble.Location = new System.Drawing.Point(412, 136);
             this.btnInmueble.Name = "btnInmueble";
-            this.btnInmueble.Size = new System.Drawing.Size(552, 277);
+            this.btnInmueble.Size = new System.Drawing.Size(276, 144);
             this.btnInmueble.TabIndex = 7;
             this.btnInmueble.Text = "Ingresar nuevo inmueble";
             this.btnInmueble.UseVisualStyleBackColor = false;
@@ -133,10 +126,9 @@
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnHome.Location = new System.Drawing.Point(232, 285);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnHome.Location = new System.Drawing.Point(116, 148);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(392, 231);
+            this.btnHome.Size = new System.Drawing.Size(196, 120);
             this.btnHome.TabIndex = 6;
             this.btnHome.Text = "Ir a Home";
             this.btnHome.UseVisualStyleBackColor = false;
@@ -144,17 +136,16 @@
             // 
             // LaunchScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(99)))), ((int)(((byte)(135)))));
-            this.ClientSize = new System.Drawing.Size(1600, 865);
+            this.ClientSize = new System.Drawing.Size(751, 385);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnInmueble);
             this.Controls.Add(this.btnHome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LaunchScreen";

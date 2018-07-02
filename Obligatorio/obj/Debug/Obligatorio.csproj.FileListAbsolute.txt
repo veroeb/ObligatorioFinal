@@ -54,3 +54,17 @@ C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatori
 \\Mac\Home\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.exe
 \\Mac\Home\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.pdb
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\bin\Debug\Obligatorio.exe.config
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\bin\Debug\Obligatorio.exe
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\bin\Debug\Obligatorio.pdb
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Properties.Resources.resources
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.Home.resources
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.LaunchScreen.resources
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.NuevaCasa.resources
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.NuevoApartamento.resources
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.NuevoInmueble.resources
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.exe
+C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.pdb

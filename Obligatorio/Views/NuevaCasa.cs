@@ -44,10 +44,8 @@ namespace Obligatorio.Views
             };
 
             ManagerInmuebles.AgregarPropiedad(casa);
-            MessageBox.Show("Propiedad agregada correctamente");
+            MessageBox.Show("Propiedad agregada correctamente");            
             
-            Hide();
-            home.Show();
         }
 
         private void txtPrecio_TextChanged(object sender, EventArgs e)
