@@ -9,7 +9,7 @@ namespace Obligatorio.Models
 {
     public class Visita
     {
-        public static DateTime Fecha { get; set; }
+        //public static DateTime Fecha { get; set; }
         public static string Comentario { get; set; }
         public static Comprador Comprador { get; set; }    
         public static Inmueble Inmueble { get; set; }
@@ -19,6 +19,7 @@ namespace Obligatorio.Models
         public static void AgregarComprador(Comprador comprador)
         {
             ListaCompradores.Add(comprador);
+            ListaCompradores.OrderBy(x => x.Nombre).ToList();
             //ListaCompradores.Sort();
             AgregarCompradorArchivo();
         }
@@ -27,8 +28,8 @@ namespace Obligatorio.Models
         {
             foreach (Comprador c in ListaCompradores)
             {
-                manejadorDeArchivos.Escribir("Lista de compradores.txt", $"{Fecha}" +
-                    //$" Inmueble: {Inmueble.Ubicacion}," +
+                manejadorDeArchivos.Escribir("Lista de compradores.txt", $"{DateTime.Now.ToString()} -" +
+                    //$" Inmueble: {ManagerRecursos.InmuebleComprador.Ubicacion.ToString()}," +
                     $" Nombre: {c.Nombre}," +
                     $" CI: {c.CI}," +
                     $" Correo: {c.Correo}," +

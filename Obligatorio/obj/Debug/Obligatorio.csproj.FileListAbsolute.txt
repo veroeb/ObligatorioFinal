@@ -26,3 +26,17 @@ C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\O
 C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
 C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.exe
 C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.pdb
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\bin\Debug\Obligatorio.exe.config
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\bin\Debug\Obligatorio.exe
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\bin\Debug\Obligatorio.pdb
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csprojAssemblyReference.cache
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Properties.Resources.resources
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.Home.resources
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.LaunchScreen.resources
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.NuevaCasa.resources
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.NuevoApartamento.resources
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.NuevoInmueble.resources
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csproj.GenerateResource.cache
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.exe
+C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.pdb

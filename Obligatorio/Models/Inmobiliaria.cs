@@ -9,6 +9,7 @@ namespace Obligatorio.Models
     public class Inmobiliaria
     {
         public static ManejadorDeArchivos manejadorDeArchivos;
+
         #region Singleton
         public static Inmobiliaria Instancia = null;
         public static Inmobiliaria GetInmobiliaria()

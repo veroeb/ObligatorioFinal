@@ -44,6 +44,17 @@ namespace Obligatorio.Views
             ManagerRecursos.fotos = new List<string>();
             ManagerRecursos.fotos.Clear();
             ManagerRecursos.titulo = "";
+
+            ManagerRecursos.NombrePropietario = "";
+            ManagerRecursos.CIPropietario = "";
+            ManagerRecursos.DireccionPropietario = "";
+            ManagerRecursos.CorreoPropietario = "";
+            ManagerRecursos.TelefonoPropietario = "";
+
+            ManagerRecursos.NombreComprador = "";
+            ManagerRecursos.CIComprador = "";
+            ManagerRecursos.CorreoComprador = "";
+            ManagerRecursos.TelefonoComprador = "";
         }
 
         private void btnApartment_Click(object sender, EventArgs e)

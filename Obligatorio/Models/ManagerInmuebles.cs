@@ -9,7 +9,8 @@ namespace Obligatorio.Models
 {
     public static class ManagerInmuebles
     {
-        public static List<Inmueble> ListaInmuebles { get; set; }
+        //public static List<Inmueble> ListaInmuebles { get; set; }
+        public static List<Inmueble> ListaInmuebles = new List<Inmueble>();
         //public static List<string> ListaFotos = new List<string>();
 
         static ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
@@ -50,9 +51,12 @@ namespace Obligatorio.Models
                     $"{i.Estado};" +
                     $"{i.Garages};" +
                     $"{i.Ubicacion};" +
-                    $"{Global.BooleanToString((i as Casa).Jardin)};" +
-                    $"{Global.BooleanToString((i as Casa).Patio)};" +
-                    $"{Global.BooleanToString(i.Parrillero)};" +
+                    //$"{Global.BooleanToString((i as Casa).Jardin)};" +
+                    $"{(i as Casa).Jardin};" +
+                    //$"{Global.BooleanToString((i as Casa).Patio)};" +
+                    $"{(i as Casa).Patio};" +
+                    //$"{Global.BooleanToString(i.Parrillero)};" +
+                    $"{i.Parrillero};" +
                     $"{i.GastosComunes};" +
                     $"{i.Comentarios};" +
                     $"{ListaFotos()}");
@@ -73,10 +77,12 @@ namespace Obligatorio.Models
                     $"{i.Garages};" +
                     $"{i.Ubicacion};" +
                     $"{(i as Apartamento).NroPiso};" +
-                    $"{Global.BooleanToString((i as Apartamento).Porteria)};" +
-                    $"{Global.BooleanToString(i.Parrillero)};" +
+                    //$"{Global.BooleanToString((i as Apartamento).Porteria)};" +
+                    $"{(i as Apartamento).Porteria};" +
+                    //$"{Global.BooleanToString(i.Parrillero)};" +
+                    $"{i.Parrillero};" +
                     $"{(i as Apartamento).CantidadPisos};" +
-                    $"{(i as Apartamento).GastosComunes};" +
+                    $"{i.GastosComunes};" +
                     $"{i.Comentarios};" +
                     $"{ListaFotos()}");
             }

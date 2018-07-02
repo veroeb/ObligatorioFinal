@@ -36,10 +36,18 @@ namespace Obligatorio.Models
 
         #region Propietario
         public static string NombrePropietario;
-        public static string CI;
+        public static string CIPropietario;
         public static string DireccionPropietario;
-        public static string Correo;
-        public static string Telefono;
+        public static string CorreoPropietario;
+        public static string TelefonoPropietario;
+        #endregion
+
+        #region Comprador
+        public static string NombreComprador;
+        public static string CIComprador;
+        public static string CorreoComprador;
+        public static string TelefonoComprador;
+        public static Inmueble InmuebleComprador = new Inmueble();
         #endregion
     }
 }

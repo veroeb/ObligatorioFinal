@@ -13,6 +13,8 @@ namespace Obligatorio.Views
 {
     public partial class NuevaCasa : Form
     {
+        Home home = new Home();
+
         public NuevaCasa()
         {
             InitializeComponent();
@@ -45,7 +47,6 @@ namespace Obligatorio.Views
             MessageBox.Show("Propiedad agregada correctamente");
             
             Hide();
-            Home home = new Home();
             home.Show();
         }
 
@@ -150,7 +151,7 @@ namespace Obligatorio.Views
 
         private void txtCI_TextChanged(object sender, EventArgs e)
         {
-            ManagerRecursos.CI = txtCI.Text;
+            ManagerRecursos.CIPropietario = txtCI.Text;
         }
 
         private void txtDireccionPropietario_TextChanged(object sender, EventArgs e)
@@ -160,12 +161,12 @@ namespace Obligatorio.Views
 
         private void txtCorreo_TextChanged(object sender, EventArgs e)
         {
-            ManagerRecursos.Correo = txtCorreo.Text;
+            ManagerRecursos.CorreoPropietario = txtCorreo.Text;
         }
 
         private void txtTelefono_TextChanged(object sender, EventArgs e)
         {
-            ManagerRecursos.Telefono = txtTelefono.Text;
+            ManagerRecursos.TelefonoPropietario = txtTelefono.Text;
         }
 
         private void txtComentarios_TextChanged(object sender, EventArgs e)
@@ -201,7 +202,6 @@ namespace Obligatorio.Views
         private void btnHome_Click(object sender, EventArgs e)
         {
             Hide();
-            Home home = new Home();
             home.Show();
         }
 

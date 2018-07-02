@@ -36,10 +36,14 @@ namespace Obligatorio.Utils
             List<String> lineasArchivo = Leer(path);
 
             String[] lineaPalabras;
+            String[] lineaFotos;
 
             foreach (String l in lineasArchivo)
             {
                 lineaPalabras = l.Split(';');
+                lineaFotos = l.Split(',');
+                lineaPalabras[18] = lineaFotos.ToString();                
+
                 if(lineaPalabras[0] == "Casa")
                 {
                     Casa casa = new Casa()
@@ -58,10 +62,11 @@ namespace Obligatorio.Utils
                         Ubicacion = lineaPalabras[12],
                         Jardin = Convert.ToBoolean(lineaPalabras[13]),
                         Patio = Convert.ToBoolean(lineaPalabras[14]),
-                        Parrillero = Convert.ToBoolean(lineaPalabras[15]),
+                        Parrillero = Boolean.Parse(lineaPalabras[15]),
                         GastosComunes = float.Parse(lineaPalabras[16]),
                         Comentarios = lineaPalabras[17],
-                        //Fotos = lineaPalabras[18]
+                        //Fotos.A
+                        //Fotos = lineaPalabras[18].Split(','),
                     };
                     Inmuebles.Add(casa);
                 }

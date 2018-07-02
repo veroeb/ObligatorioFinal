@@ -115,8 +115,9 @@ namespace Obligatorio.Views
         private void btnAgendarVisita_Click(object sender, EventArgs e)
         {
             InmuebleActual = (gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble);
+            ManagerRecursos.InmuebleComprador = InmuebleActual;
             Visita.AgendarVisita(CompradorActual, InmuebleActual);
-            MessageBox.Show("Visita Agendada correctamente con " + CompradorActual.Nombre);
+            MessageBox.Show($"Visita Agendada correctamente del inmueble {InmuebleActual.Ubicacion} con comprador {CompradorActual.Nombre}");
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
@@ -130,6 +131,30 @@ namespace Obligatorio.Views
         {
             Hide();
             launchScreen.Show();
+        }
+
+        private void txtNombreComprador_MouseEnter(object sender, EventArgs e)
+        {
+        }
+
+        private void txtNombreComprador_Click(object sender, EventArgs e)
+        {
+            txtNombreComprador.Text = "";
+        }
+
+        private void txtCI_Click(object sender, EventArgs e)
+        {
+            txtCI.Text = "";
+        }
+
+        private void txtCorreo_Click(object sender, EventArgs e)
+        {
+            txtCorreo.Text = "";
+        }
+
+        private void txtNumero_Click(object sender, EventArgs e)
+        {
+            txtNumero.Text = "";
         }
     }
 }
