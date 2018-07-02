@@ -198,7 +198,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(170, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(779, 11);
+            this.panel2.Size = new System.Drawing.Size(779, 12);
             this.panel2.TabIndex = 14;
             // 
             // panel1
@@ -229,7 +229,7 @@
             // 
             // btnAtras
             // 
-            this.btnAtras.Location = new System.Drawing.Point(42, 21);
+            this.btnAtras.Location = new System.Drawing.Point(37, 26);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 23);
             this.btnAtras.TabIndex = 3;
@@ -492,7 +492,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(173, 258);
+            this.label7.Location = new System.Drawing.Point(173, 261);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 13);
             this.label7.TabIndex = 34;
@@ -500,10 +500,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(270, 255);
+            this.textBox1.Location = new System.Drawing.Point(270, 258);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 35;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Home
             // 

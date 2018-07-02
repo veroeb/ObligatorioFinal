@@ -98,6 +98,7 @@ namespace Obligatorio.Views
             CompradorActual = comprador;
             Visita.AgregarComprador(CompradorActual);
             MessageBox.Show("Comprador actual actualizado y agendado");
+            textBox1.Text = CompradorActual.Nombre;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -183,6 +184,11 @@ namespace Obligatorio.Views
             {
                 ManagerInmuebles.ListaInmuebles = manejadorDeArchivos.InfoArchivo(path);
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

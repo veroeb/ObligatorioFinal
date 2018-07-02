@@ -19,3 +19,6 @@
 2/7/2018 18:51:58 - Nombre: Joaquin, CI: 567890, Correo: joaquin@gmail.com, Telefono: 0999900090
 2/7/2018 18:53:17 - Nombre: x, CI: y, Correo: Correo, Telefono: Numero
 2/7/2018 18:58:01 - Nombre: vero, CI: 587452, Correo: Correo, Telefono: 58745
+2/7/2018 19:02:17 - Nombre: Jose, CI: 4567, Correo: .com, Telefono: ojo
+2/7/2018 19:02:55 - Nombre: joa, CI: Ci, Correo: Correo, Telefono: Numero
+2/7/2018 19:04:59 - Nombre: joaq, CI: Ci, Correo: Correo, Telefono: Numero
