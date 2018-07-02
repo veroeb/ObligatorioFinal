@@ -1,0 +1,11 @@
+Casa;121432;2;3;1;3543543;543543;;;;A estrenar;1;jhahjasjh 4324;No;No;Si;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png
+Casa;4.353534E+07;0;0;0;0;0;;;;;0;;No;No;No;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png
+Apartamento;78654;0;0;0;0;0;;;;;0;;0;No;No;0;0;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 3.37.16 PM.png,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 5.11.11 PM.png
+Apartamento;8768;0;0;0;0;0;;;;;0;;0;No;No;0;0;;\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 5.28.40 PM.png
+Casa;0;0;0;0;0;0;;;;;0;;No;No;No;;\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 5.28.40 PM.png\\Mac\Home\Desktop\Screen Shot 2018-06-20 at 5.23.13 PM.png
+Apartamento;7575;0;0;0;0;0;;;;;0;;0;No;No;0;0;;
+Apartamento;765765;0;0;0;0;0;;;;;0;;0;No;No;0;0;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png
+Apartamento;76876;0;0;0;0;0;;;;;0;;0;No;No;0;0;;
+Apartamento;6654645;0;0;0;0;0;;;;;0;;0;No;No;0;0;;
+Casa;56789;0;0;0;0;0;;;;;0;;No;No;No;;
+Apartamento;3456;0;0;0;0;0;;;;;0;;0;No;Si;0;0;;

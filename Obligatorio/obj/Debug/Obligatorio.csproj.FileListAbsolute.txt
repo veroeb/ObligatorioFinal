@@ -1,0 +1,28 @@
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\bin\Debug\Obligatorio.exe.config
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\bin\Debug\Obligatorio.exe
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\bin\Debug\Obligatorio.pdb
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Properties.Resources.resources
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.NuevoApartamento.resources
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.NuevoInmueble.resources
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.exe
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.pdb
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.Home.resources
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.LaunchScreen.resources
+\\Mac\Home\Documents\GitHub\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.NuevaCasa.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\bin\Debug\Obligatorio.exe.config
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\bin\Debug\Obligatorio.exe
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\bin\Debug\Obligatorio.pdb
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csprojAssemblyReference.cache
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Properties.Resources.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.Home.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.LaunchScreen.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.NuevaCasa.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.NuevoApartamento.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.Views.NuevoInmueble.resources
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csproj.GenerateResource.cache
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.exe
+C:\Users\vero\OneDrive - Universidad Católica del Uruguay\2do\Programacion II\Obligatorio\ObligatorioMergeado\ObligatorioOk\Obligatorio\obj\Debug\Obligatorio.pdb
