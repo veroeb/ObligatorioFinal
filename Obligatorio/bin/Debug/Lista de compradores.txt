@@ -15,3 +15,4 @@
 7/2/2018 2:55:53 PM - Nombre: bdsfas, CI: 45243, Correo: asdfas, Telefono: 12314
 7/2/2018 2:59:04 PM - Nombre: hfdgh, CI: 363, Correo: dsfg, Telefono: 32543
 7/2/2018 3:01:16 PM - Nombre: dsfgd, CI: Ci, Correo: sdfgsdfg, Telefono: Numero
+7/2/18 4:34:36 PM - Nombre: fsdfdsf, CI: 234234, Correo: 3242, Telefono: 242342

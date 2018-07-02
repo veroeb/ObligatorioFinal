@@ -7,3 +7,6 @@ Apartamento;0;0;0;0;0;0;;;;;0;;0;False;False;0;0;;
 Casa;0;0;0;0;0;0;;;;;0;;False;False;False;0;;
 Casa;4444;0;0;0;0;0;;;;;0;;False;False;False;4444;dsfgfdcgd;
 Apartamento;0;0;0;0;0;0;;;;;0;;0;False;False;0;0;;
+Apartamento;34242;1;0;0;0;0;;;;;0;;0;False;True;0;23424;32424234;
+Apartamento;424234;0;0;0;0;0;;;;;0;;0;False;False;0;0;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png
+Casa;1231;0;0;0;0;0;;;;;0;;False;False;False;0;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 3.37.16 PM.png,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 5.28.40 PM.png

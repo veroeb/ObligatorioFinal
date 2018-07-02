@@ -36,16 +36,25 @@ namespace Obligatorio.Utils
             List<String> lineasArchivo = Leer(path);
 
             String[] lineaPalabras;
-            String[] lineaFotos;
+            //String[] lineaFotos;
 
             foreach (String l in lineasArchivo)
             {
                 lineaPalabras = l.Split(';');
-                lineaFotos = l.Split(',');
-                lineaPalabras[18] = lineaFotos.ToString();                
+                //lineaFotos = l.Split(',');
+                //lineaPalabras[18] = lineaFotos.ToString();                
 
                 if(lineaPalabras[0] == "Casa")
                 {
+                    string[] fotosAux = lineaPalabras[18].Split(',');
+
+                    List<string> listaFotos = new List<string>();
+
+                    foreach (string foto in fotosAux)
+                    {
+                        listaFotos.Add(foto);
+                    }
+
                     Casa casa = new Casa()
                     {
                         Precio = float.Parse(lineaPalabras[1]),
@@ -65,13 +74,21 @@ namespace Obligatorio.Utils
                         Parrillero = Boolean.Parse(lineaPalabras[15]),
                         GastosComunes = float.Parse(lineaPalabras[16]),
                         Comentarios = lineaPalabras[17],
-                        //Fotos.A
-                        //Fotos = lineaPalabras[18].Split(','),
+                        Fotos = listaFotos
                     };
                     Inmuebles.Add(casa);
                 }
                 else
                 {
+                    string[] fotosAux = lineaPalabras[18].Split(',');
+
+                    List<string> listaFotos = new List<string>();
+
+                    foreach (string foto in fotosAux)
+                    {
+                        listaFotos.Add(foto);
+                    }
+
                     Apartamento apartamento = new Apartamento()
                     {
                         Precio = float.Parse(lineaPalabras[1]),
@@ -92,7 +109,7 @@ namespace Obligatorio.Utils
                         CantidadPisos = Convert.ToInt32(lineaPalabras[16]),
                         GastosComunes = float.Parse(lineaPalabras[17]),
                         Comentarios = lineaPalabras[18],
-                        //Fotos = lineaPalabras[19]
+                        Fotos = listaFotos
                     };
                     Inmuebles.Add(apartamento);
                 }

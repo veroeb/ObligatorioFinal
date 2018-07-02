@@ -19,6 +19,8 @@ namespace Obligatorio.Views
         Inmueble InmuebleActual;
         Inmobiliaria inmobiliaria = Inmobiliaria.GetInmobiliaria();
         LaunchScreen launchScreen = new LaunchScreen();
+
+
         //ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
         //List<Inmueble> ListaInmuebles { get; set; }
 
@@ -48,7 +50,7 @@ namespace Obligatorio.Views
             //List<Inmueble> listaInmuebles = new List<Inmueble>();
 
             Inmobiliaria inmobiliaria = Inmobiliaria.GetInmobiliaria();
-            
+
             List<Inmueble> listaInmuebles = new List<Inmueble>();
             listaInmuebles = inmobiliaria.GetListaInmuebles();
 
@@ -75,7 +77,7 @@ namespace Obligatorio.Views
 
         private void Home_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -155,6 +157,20 @@ namespace Obligatorio.Views
         private void txtNumero_Click(object sender, EventArgs e)
         {
             txtNumero.Text = "";
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMostrarFoto_Click(object sender, EventArgs e)
+        {
+            Inmueble seleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
+            if (seleccionado.Fotos == null)
+                MessageBox.Show("No existen imagenes para mostrar");
+            else
+                pbFotos.Load(seleccionado.Fotos[0]);
         }
     }
 }
