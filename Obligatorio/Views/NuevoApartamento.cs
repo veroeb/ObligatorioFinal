@@ -107,7 +107,7 @@ namespace Obligatorio.Views
 
         private void cbBarrio_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ManagerRecursos.barrio = cbBarrio.SelectedItem.ToString();
+            //ManagerRecursos.barrio = cbBarrio.SelectedItem.ToString();
         }
 
         private void txtDireccion_TextChanged(object sender, EventArgs e)
@@ -247,6 +247,11 @@ namespace Obligatorio.Views
             {
                 pbFoto1.Load(lbFotos.SelectedItem.ToString());
             }
+        }
+
+        private void txtBarrio_TextChanged(object sender, EventArgs e)
+        {
+            ManagerRecursos.barrio = txtBarrio.Text;
         }
     }
 }

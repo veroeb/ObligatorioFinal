@@ -8,7 +8,7 @@ namespace Obligatorio.Models
 {
     public class Inmueble
     {
-        public Propietario Propietario { get; set; }
+        //public Propietario Propietario { get; set; }
         //public string NombrePropietario { get; set; }
 
         public float Precio { get; set; }

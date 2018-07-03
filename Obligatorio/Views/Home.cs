@@ -19,7 +19,9 @@ namespace Obligatorio.Views
         Inmueble InmuebleActual;
         Inmobiliaria inmobiliaria = Inmobiliaria.GetInmobiliaria();
         LaunchScreen launchScreen = new LaunchScreen();
-        ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
+        VistaFuncionesInmobiliaria vistaFuncionesInmobiliaria = new VistaFuncionesInmobiliaria();
+
+        //ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
 
 
         //ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
@@ -28,6 +30,33 @@ namespace Obligatorio.Views
         public Home()
         {
             InitializeComponent();
+
+            //comboBoxDepartamento.Items.Add("Ciudad de la Costa");
+            //comboBoxDepartamento.Items.Add("Las Piedras");
+            //comboBoxDepartamento.Items.Add("Maldonado");
+            //comboBoxDepartamento.Items.Add("Montevideo");
+            //comboBoxDepartamento.Items.Add("Pando");
+            //comboBoxDepartamento.Items.Add("Paysandú");
+            //comboBoxDepartamento.Items.Add("Piriápolis");
+            //comboBoxDepartamento.Items.Add("Punta del Este");
+            //comboBoxDepartamento.Items.Add("Rivera");
+            //comboBoxDepartamento.Items.Add("Salto");
+            //comboBoxDepartamento.Items.Add("Tacuarembó");
+
+            List<String> listaDepartamentos = new List<String>
+            {
+                "Canelones", "Colonia", "Maldonado", "Montevideo" 
+            };
+
+            comboBoxDepartamento.DataSource = listaDepartamentos;
+
+            List<String> listaCiudades = new List<String>
+            {
+                "Ciudad de la Costa", "Colonia del Sacramento", "Las Piedras", "Maldonado", "Montevideo", "Pando", "Piriapolis", "Punta del Este"
+            };
+
+            comboBoxCiudad.DataSource = listaCiudades;
+
         }
 
         private void Home_FormClosed(object sender, FormClosedEventArgs e)
@@ -60,7 +89,7 @@ namespace Obligatorio.Views
                 if (filtrarPorDepartamento)
                     listaInmuebles = listaInmuebles.Where(x => x.Departamento == comboBoxDepartamento.SelectedItem.ToString()).ToList();
                 if (filtrarPorBarrio)
-                    listaInmuebles = listaInmuebles.Where(x => x.Barrio == comboBoxBarrio.SelectedItem.ToString()).ToList();
+                    listaInmuebles = listaInmuebles.Where(x => x.Barrio == comboBoxCiudad.SelectedItem.ToString()).ToList();
                 if (filtrarPorGarage)
                     listaInmuebles = listaInmuebles.Where(x => x.Garages == Convert.ToInt32(comboBoxGarage.SelectedItem.ToString())).ToList();
             }
@@ -98,7 +127,8 @@ namespace Obligatorio.Views
             CompradorActual = comprador;
             Visita.AgregarComprador(CompradorActual);
             MessageBox.Show("Comprador actual actualizado y agendado");
-            textBox1.Text = CompradorActual.Nombre;
+            lblNombreComprador.Text = CompradorActual.Nombre;
+            //textBox1.Text = CompradorActual.Nombre;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -177,18 +207,36 @@ namespace Obligatorio.Views
 
         private void button4_Click_2(object sender, EventArgs e)
         {
-            manejadorDeArchivos = new ManejadorDeArchivos();
-            string path = $"{AppDomain.CurrentDomain.BaseDirectory}Listado de propiedades.txt";
-
-            if (File.Exists(path))
-            {
-                ManagerInmuebles.ListaInmuebles = manejadorDeArchivos.InfoArchivo(path);
-            }
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSiguienteFoto_Click(object sender, EventArgs e)
+        {
+            Inmueble inmuebleSeleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
+            if (inmuebleSeleccionado.Fotos == null)
+                MessageBox.Show("No existen imagenes para mostrar");
+            else
+                pbFotos.Load(inmuebleSeleccionado.Fotos[1]);
+        }
+
+        private void btnAnteriorFoto_Click(object sender, EventArgs e)
+        {
+            Inmueble inmuebleSeleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
+            if (inmuebleSeleccionado.Fotos == null)
+                MessageBox.Show("No existen imagenes para mostrar");
+            else
+                pbFotos.Load(inmuebleSeleccionado.Fotos[0]);
+        }
+
+        private void btnInmobiliaria_Click(object sender, EventArgs e)
+        {
+            Hide();
+            vistaFuncionesInmobiliaria.Show();
         }
     }
 }

@@ -12,3 +12,8 @@ Apartamento;424234;0;0;0;0;0;;;;;0;;0;False;False;0;0;;\\Mac\Home\Desktop\220px-
 Casa;1231;0;0;0;0;0;;;;;0;;False;False;False;0;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 3.37.16 PM.png,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 5.28.40 PM.png
 Casa;1;0;0;0;0;0;;;;;0;;False;False;False;0;;C:\Users\usuario\Pictures\31326503_1258162284286634_532835854649917440_n.jpg,C:\Users\usuario\Pictures\f2.png
 Casa;12;0;0;0;0;0;;;;;0;;False;False;False;0;;C:\Users\usuario\Pictures\31326503_1258162284286634_532835854649917440_n.jpg,C:\Users\usuario\Pictures\f2.pngC:\Users\usuario\Pictures\31326503_1258162284286634_532835854649917440_n.jpg,C:\Users\usuario\Pictures\f2.png,C:\Users\usuario\Pictures\36275976_2135208330084153_6283329002752966656_n.jpg
+Apartamento;11111;0;0;0;0;0;;;;;0;;0;False;False;0;0;;C:\Users\Vero\Desktop\Copy of Page 1_1.png,C:\Users\Vero\Desktop\Page 1.png
+Casa;2222;0;0;0;0;0;;;;;0;;False;False;False;0;;C:\Users\Vero\Desktop\Page 1.png,C:\Users\Vero\Desktop\Page 2.png
+Casa;2222;0;0;0;0;0;;;;;0;;False;False;False;0;;C:\Users\Vero\Desktop\Page 1.png,C:\Users\Vero\Desktop\Page 2.pngC:\Users\Vero\Desktop\Page 1.png,C:\Users\Vero\Desktop\Page 2.png
+Apartamento;3333;0;0;0;0;0;;;;;0;;0;False;False;0;0;;C:\Users\Vero\Desktop\Page 3.png,C:\Users\Vero\Desktop\Lenel-Logo.png
+Casa;12313;0;0;0;0;0;Montevideo;Montevideo;Malvin;;0;;False;False;False;0;;C:\Users\Vero\Desktop\Page 1.png,C:\Users\Vero\Desktop\Lenel-Logo.png
