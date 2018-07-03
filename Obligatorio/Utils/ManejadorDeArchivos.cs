@@ -41,8 +41,6 @@ namespace Obligatorio.Utils
             foreach (String l in lineasArchivo)
             {
                 lineaPalabras = l.Split(';');
-                //lineaFotos = l.Split(',');
-                //lineaPalabras[18] = lineaFotos.ToString();                
 
                 if(lineaPalabras[0] == "Casa")
                 {
@@ -56,7 +54,7 @@ namespace Obligatorio.Utils
                     }
 
                     Casa casa = new Casa()
-                    {
+                    {                        
                         Precio = float.Parse(lineaPalabras[1]),
                         CantidadHabitaciones = Convert.ToInt32(lineaPalabras[2]),
                         CantidadDormitorios = Convert.ToInt32(lineaPalabras[3]),

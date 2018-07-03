@@ -19,7 +19,8 @@ namespace Obligatorio.Models
             Correo = correo;
             Telefono = telefono;
             InmueblesPropietario = new List<Inmueble>();
-
         }
+
+       
     }
 }

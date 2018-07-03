@@ -38,9 +38,9 @@ namespace Obligatorio.Models
             }
         }
 
-        public static void AgendarVisita(Comprador c, Inmueble i)
+        public static void AgendarVisita(string fecha, Comprador c, Inmueble i)
         {
-
+            manejadorDeArchivos.Escribir("Visitas agendadas.txt", $"{fecha} - Comprador con cedula: {c.CI} agendó una visita al inmueble: {i.Ubicacion}.");
         }
     }
 }

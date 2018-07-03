@@ -138,7 +138,7 @@ namespace Obligatorio.Views
         {
             InmuebleActual = (gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble);
             ManagerRecursos.InmuebleComprador = InmuebleActual;
-            Visita.AgendarVisita(CompradorActual, InmuebleActual);
+            Visita.AgendarVisita(dateTimePicker1.Text, CompradorActual, InmuebleActual);
             MessageBox.Show($"Visita Agendada correctamente del inmueble {InmuebleActual.Ubicacion} con comprador {CompradorActual.Nombre}");
         }
 

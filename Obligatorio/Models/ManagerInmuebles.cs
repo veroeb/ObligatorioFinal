@@ -33,8 +33,6 @@ namespace Obligatorio.Models
 
         public static void AgregarPropiedadArchivo(Inmueble i)
         {
-            //foreach (Inmueble i in ListaInmuebles)
-            //{
             inmueble = i;
             if (i is Casa)
             {

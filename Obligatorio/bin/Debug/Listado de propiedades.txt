@@ -18,3 +18,5 @@ Casa;2222;0;0;0;0;0;;;;;0;;False;False;False;0;;C:\Users\Vero\Desktop\Page 1.png
 Apartamento;3333;0;0;0;0;0;;;;;0;;0;False;False;0;0;;C:\Users\Vero\Desktop\Page 3.png,C:\Users\Vero\Desktop\Lenel-Logo.png
 Casa;12313;0;0;0;0;0;Montevideo;Montevideo;Malvin;;0;;False;False;False;0;;C:\Users\Vero\Desktop\Page 1.png,C:\Users\Vero\Desktop\Lenel-Logo.png
 Apartamento;2123;0;0;0;0;0;Canelones;Ciudad de la Costa;;;0;;0;False;False;0;0;;C:\Users\Vero\Desktop\Copy of Page 1_1.png,C:\Users\Vero\Desktop\Lenel-Logo.png
+Casa;324123;0;0;0;0;0;;;;;0;Hola;False;False;False;0;;
+Apartamento;33333;0;0;0;0;0;;;;;0;234324;0;False;False;0;0;;C:\Users\Vero\Desktop\Lenel-Logo.png,C:\Users\Vero\Desktop\Page 1.png

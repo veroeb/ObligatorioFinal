@@ -22,13 +22,11 @@ namespace Obligatorio.Models
         public string Barrio { get; set; }
         public string Ubicacion { get; set; }
         public string Estado { get; set; }
-        //public EstadoInmueble Estado { get; set; }
         public float GastosComunes { get; set; }
         public int Garages { get; set; }
         public bool Parrillero { get; set; }
         public string Comentarios { get; set; }
-        //public List<string> Comentarios { get; set; }
-        public List<string> Fotos { get; set; }
-        //public string Fotos { get; set; }
+        public List<string> Fotos { get; set; } 
+
     }
 }
