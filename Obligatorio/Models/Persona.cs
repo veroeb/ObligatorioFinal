@@ -13,12 +13,12 @@ namespace Obligatorio.Models
         public string Correo { get; set; }
         public string Telefono { get; set; }
 
-        public Persona(String ci, String nombre, String correo, String telefono)
-        {
-            CI = ci;
-            Nombre = nombre;
-            Correo = correo;
-            Telefono = telefono;
-        }
+        //public Persona(String ci, String nombre, String correo, String telefono)
+        //{
+        //    CI = ci;
+        //    Nombre = nombre;
+        //    Correo = correo;
+        //    Telefono = telefono;
+        //}
     }
 }

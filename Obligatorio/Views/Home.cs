@@ -105,7 +105,14 @@ namespace Obligatorio.Views
         private void btnAgregarComprador_Click(object sender, EventArgs e)
         {
             ///Se agrega un comprador a la lista de compradores
-            Comprador comprador = new Comprador(txtNombreComprador.Text, txtCI.Text, txtCorreo.Text, txtNumero.Text);
+            Comprador comprador = new Comprador
+            {
+                Nombre = txtNombreComprador.Text,
+                CI = txtCI.Text,
+                Correo = txtCorreo.Text,
+                Telefono = txtNumero.Text
+            };
+            //Comprador comprador = new Comprador(txtNombreComprador.Text, txtCI.Text, txtCorreo.Text, txtNumero.Text);
             CompradorActual = comprador;
             Visita.AgregarComprador(CompradorActual);
             MessageBox.Show("Comprador actual actualizado y agendado");
@@ -121,7 +128,14 @@ namespace Obligatorio.Views
         {
             ///Se vende o alquila el inmueble, por lo tanto se elimina de la lista de inmuebles
             InmuebleActual = (gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble);
-            Comprador comprador = new Comprador(txtNombreComprador.Text, txtCI.Text, txtCorreo.Text, txtNumero.Text);
+            Comprador comprador = new Comprador
+            {
+                Nombre = txtNombreComprador.Text,
+                CI = txtCI.Text,
+                Correo = txtCorreo.Text,
+                Telefono = txtNumero.Text
+            };
+            //Comprador comprador = new Comprador(txtNombreComprador.Text, txtCI.Text, txtCorreo.Text, txtNumero.Text);
             CompradorActual = comprador;
             ManagerInmuebles.VenderAlquilar(InmuebleActual, CompradorActual);
             MessageBox.Show("Propiedad vendida a " + CompradorActual.Nombre);

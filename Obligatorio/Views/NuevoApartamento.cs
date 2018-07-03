@@ -49,8 +49,25 @@ namespace Obligatorio.Views
                 Fotos = ManagerRecursos.fotos
             };
 
+            ///Se crea un nuevo propietario
+            Propietario propietario = new Propietario
+            {
+                Nombre = ManagerRecursos.NombrePropietario,
+                CI = ManagerRecursos.CIPropietario,
+                Direccion = ManagerRecursos.DireccionPropietario,
+                Correo = ManagerRecursos.CorreoPropietario,
+                Telefono = ManagerRecursos.TelefonoPropietario
+            };
+
+            ///Se agrega el inmueble a la lista de inmuebles del propietario
+            propietario.InmueblesPropietario.Add(apartamento);
+
             ///Se agrega el apartamento a la lista de inmuebles
             ManagerInmuebles.AgregarPropiedad(apartamento);
+
+            ///Se crea un archivo con los inmuebles que tenga el propietario
+            ManagerInmuebles.AgregarInmueblePropietarioArchivo(propietario, apartamento);
+
             MessageBox.Show("Propiedad agregada correctamente");
 
 

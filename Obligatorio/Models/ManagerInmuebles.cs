@@ -119,5 +119,10 @@ namespace Obligatorio.Models
             return PathFotos;
         }
 
+        public static void AgregarInmueblePropietarioArchivo (Propietario p, Inmueble i)
+        {
+            manejadorDeArchivos.Escribir("Inmuebles de propietarios.txt", $"Propietario con cedula: {p.CI} creo un nuevo inmueble con ubicacion: {i.Ubicacion}.");
+        }
+
     }
 }
