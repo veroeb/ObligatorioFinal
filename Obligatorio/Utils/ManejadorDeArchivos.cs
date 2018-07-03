@@ -9,7 +9,11 @@ namespace Obligatorio.Utils
     {
         public List<Inmueble> Inmuebles { get; set; }
 
-
+        /// <summary>
+        /// Permite escribir en un archivo
+        /// </summary>
+        /// <param name="nomArchivo">Se toma un nombre de archivo</param>
+        /// <param name="texto">Se toma un texto</param>
         public void Escribir(String nomArchivo, String texto)
         {
             StreamWriter writer = new StreamWriter(nomArchivo, true);
@@ -17,6 +21,11 @@ namespace Obligatorio.Utils
             writer.Close();
         }
 
+        /// <summary>
+        /// Se lee un archivo
+        /// </summary>
+        /// <param name="nomArchivo">Se toma la ruta del archivo</param>
+        /// <returns></returns>
         public List<String> Leer(String nomArchivo)
         {
             StreamReader reader = new StreamReader(nomArchivo);
@@ -29,6 +38,11 @@ namespace Obligatorio.Utils
             return lineasArchivo;
         }
 
+        /// <summary>
+        /// Se lee un archivo y se separa en strings
+        /// </summary>
+        /// <param name="path">Se toma una ruta de archivo</param>
+        /// <returns></returns>
         public List<Inmueble> InfoArchivo(String path)
         {
             Inmuebles = new List<Inmueble>();
@@ -36,7 +50,6 @@ namespace Obligatorio.Utils
             List<String> lineasArchivo = Leer(path);
 
             String[] lineaPalabras;
-            //String[] lineaFotos;
 
             foreach (String l in lineasArchivo)
             {

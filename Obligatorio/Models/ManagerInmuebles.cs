@@ -9,28 +9,39 @@ namespace Obligatorio.Models
 {
     public static class ManagerInmuebles
     {
-        //public static List<Inmueble> ListaInmuebles { get; set; }
         public static List<Inmueble> ListaInmuebles = new List<Inmueble>();
-        //public static List<string> ListaFotos = new List<string>();
 
         static ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
-        //static ManejadorArchivosImagenes ManejadorArchivosImagenes = new ManejadorArchivosImagenes();
         static Inmueble inmueble { get; set; }
 
         public static string PathFotos { get; set; }
 
+        /// <summary>
+        /// Agrega el inmueble a la lista de inmuebles
+        /// </summary>
+        /// <param name="InmuebleaAgregar">Se toma un inmueble como parametro</param>
         public static void AgregarPropiedad(Inmueble InmuebleaAgregar)
         {
             ListaInmuebles.Add(InmuebleaAgregar);
             AgregarPropiedadArchivo(InmuebleaAgregar);
         }
 
+        /// <summary>
+        /// Se vende o alquila el inmueble a un comprador y lo elimina de la lista de inmuebles
+        /// </summary>
+        /// <param name="inmueble">Se toma un inmueble</param>
+        /// <param name="comprador">Se toma un comprador</param>
+        /// <returns></returns>
         public static String VenderAlquilar(Inmueble inmueble, Comprador comprador)
         {
             ListaInmuebles.Remove(inmueble);
             return ("Ahora esta propiedad es de: " + comprador.Nombre);
         }
 
+        /// <summary>
+        /// Se agrega el inmueble al archivo de inmuebles
+        /// </summary>
+        /// <param name="i">Se toma un inmueble como parametro</param>
         public static void AgregarPropiedadArchivo(Inmueble i)
         {
             inmueble = i;
@@ -49,11 +60,8 @@ namespace Obligatorio.Models
                     $"{i.Estado};" +
                     $"{i.Garages};" +
                     $"{i.Ubicacion};" +
-                    //$"{Global.BooleanToString((i as Casa).Jardin)};" +
                     $"{(i as Casa).Jardin};" +
-                    //$"{Global.BooleanToString((i as Casa).Patio)};" +
                     $"{(i as Casa).Patio};" +
-                    //$"{Global.BooleanToString(i.Parrillero)};" +
                     $"{i.Parrillero};" +
                     $"{i.GastosComunes};" +
                     $"{i.Comentarios};" +
@@ -75,41 +83,31 @@ namespace Obligatorio.Models
                     $"{i.Garages};" +
                     $"{i.Ubicacion};" +
                     $"{(i as Apartamento).NroPiso};" +
-                    //$"{Global.BooleanToString((i as Apartamento).Porteria)};" +
                     $"{(i as Apartamento).Porteria};" +
-                    //$"{Global.BooleanToString(i.Parrillero)};" +
                     $"{i.Parrillero};" +
                     $"{(i as Apartamento).CantidadPisos};" +
                     $"{i.GastosComunes};" +
                     $"{i.Comentarios};" +
                     $"{ListaFotos()}");
             }
-            //}
+            
         }
 
-        //public static void AgregarFotoLista(string path)
-        //{
-        //    //ListaFotos.Add(path);
-        //    inmueble.Fotos.Add(path);
-        //}
-
-        //public static string ListaFotos()
-        //{
-        //    string combinedString = string.Join(",", inmueble.Fotos.ToArray());
-        //    return combinedString;
-        //}
-
-        //public static string Algo()
-        //{
-        //    PathFotos = string.Join(",", inmueble.Fotos.ToArray());
-        //    return PathFotos;
-        //}
-
+        
+        /// <summary>
+        /// Retorna una lista de fotos de cada inmueble
+        /// </summary>
+        /// <returns></returns>
         public static string ListaFotos()
         {
             return VerFotos(inmueble.Fotos);
         }
 
+        /// <summary>
+        /// Se crea una lista de fotos que se separan por comas
+        /// </summary>
+        /// <param name="listaFotos"></param>
+        /// <returns></returns>
         public static string VerFotos(List<string> listaFotos)
         {
             foreach (string s in listaFotos)
@@ -121,32 +119,5 @@ namespace Obligatorio.Models
             return PathFotos;
         }
 
-        /* 
-         * ver si poner el filtro aca
-         */
-
-        //public static void Filtro()
-        //{
-        //    bool filtrarPorDepartamento = true;
-        //    bool filtrarPorBarrio = true;
-        //    bool filtrarPorGarage = true;
-
-        //    //List<Inmueble> listaInmuebles = new List<Inmueble>();
-
-        //    Inmobiliaria inmobiliaria = Inmobiliaria.GetInmobiliaria();
-
-        //    List<Inmueble> listaInmuebles = new List<Inmueble>();
-        //    listaInmuebles = inmobiliaria.GetListaInmuebles();
-
-        //    foreach (Inmueble i in listaInmuebles)
-        //    {
-        //        if (filtrarPorDepartamento)
-        //            listaInmuebles = listaInmuebles.Where(x => x.Departamento == comboBoxDepartamento.SelectedItem.ToString()).ToList();
-        //        if (filtrarPorBarrio)
-        //            listaInmuebles = listaInmuebles.Where(x => x.Barrio == comboBoxBarrio.SelectedItem.ToString()).ToList();
-        //        if (filtrarPorGarage)
-        //            listaInmuebles = listaInmuebles.Where(x => x.Garages == Convert.ToInt32(comboBoxGarage.SelectedItem.ToString())).ToList();
-        //    }
-        //}
     }
 }

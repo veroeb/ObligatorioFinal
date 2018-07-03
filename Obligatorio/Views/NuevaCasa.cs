@@ -22,6 +22,7 @@ namespace Obligatorio.Views
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
+            ///Se crea una casa nueva
             Casa casa = new Casa
             {
                 Precio = ManagerRecursos.precio,
@@ -43,6 +44,7 @@ namespace Obligatorio.Views
                 Fotos = ManagerRecursos.fotos
             };
 
+            ///Se agrega la casa a la lista de inmuebles
             ManagerInmuebles.AgregarPropiedad(casa);
             MessageBox.Show("Propiedad agregada correctamente");
 
@@ -67,7 +69,6 @@ namespace Obligatorio.Views
 
         private void cbBarrio_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //ManagerRecursos.barrio = cbBarrio.SelectedItem.ToString();
         }
 
         private void txtDireccion_TextChanged(object sender, EventArgs e)
@@ -102,7 +103,7 @@ namespace Obligatorio.Views
 
         private void cbBaños_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ManagerRecursos.baños = Convert.ToInt32(cbBaños.SelectedItem.ToString());        
+            ManagerRecursos.baños = Convert.ToInt32(cbBaños.SelectedItem.ToString());
         }
 
         private void cbGarages_SelectedIndexChanged(object sender, EventArgs e)
@@ -141,7 +142,6 @@ namespace Obligatorio.Views
 
         private void txtTitulo_TextChanged(object sender, EventArgs e)
         {
-            //ManagerRecursos.titulo = txtTitulo.Text;
         }
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
@@ -181,23 +181,7 @@ namespace Obligatorio.Views
                 lbFotos.Items.Add(ImagesFile.FileName);
                 ManagerRecursos.fotos.Add(ImagesFile.FileName);
             }
-
-                //if (ImagesFile.ShowDialog() == DialogResult.OK)
-                //{
-                //    pbFoto1.Load(ImagesFile.FileName);
-                //    ManagerRecursos.fotos = ImagesFile.FileName;
-                //    MessageBox.Show(ImagesFile.FileName);
-
-                //    //string[] files = ImagesFile.FileNames;
-
-                //    //foreach(string img in files)
-                //    //{
-                //    //    PictureBox pic = new PictureBox();
-                //    //    pic.Image = Image.FromFile(img);
-                //    //    //pic.Location = pbFoto2;
-                //    //}
-                //}
-            }
+        }
 
         private void btnHome_Click(object sender, EventArgs e)
         {

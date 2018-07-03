@@ -21,6 +21,7 @@ namespace Obligatorio.Models
                 manejadorDeArchivos = new ManejadorDeArchivos();
                 string path = $"{AppDomain.CurrentDomain.BaseDirectory}Listado de propiedades.txt";
 
+                ///Permite leer el archivo donde se encuentran los inmuebles, apenas se ingresa al programa
                 if (File.Exists(path))
                 {
                     ManagerInmuebles.ListaInmuebles = manejadorDeArchivos.InfoArchivo(path);

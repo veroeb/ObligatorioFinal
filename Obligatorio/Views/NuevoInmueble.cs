@@ -62,12 +62,6 @@ namespace Obligatorio.Views
             Hide();
             NuevoApartamento nuevoApartamento = new NuevoApartamento();
             nuevoApartamento.Show();
-            //using (NuevoApartamento Apartamento = new NuevoApartamento())
-            //{
-            //    Apartamento.ShowDialog();
-            //    //Environment.Exit(0);
-            //    //Application.Exit();
-            //}
         }
 
         private void NuevoInmueble_FormClosed(object sender, FormClosedEventArgs e)

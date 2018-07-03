@@ -69,3 +69,4 @@ C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligat
 C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.exe
 C:\Users\usuario\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.pdb
 C:\Users\Vero\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.VistaFuncionesInmobiliaria.resources
+\\Mac\Home\Documents\GitHub\ObligatorioFinal\Obligatorio\obj\Debug\Obligatorio.Views.VistaFuncionesInmobiliaria.resources

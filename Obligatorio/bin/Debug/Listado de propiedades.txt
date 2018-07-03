@@ -22,3 +22,5 @@ Casa;324123;0;0;0;0;0;;;;;0;Hola;False;False;False;0;;
 Apartamento;33333;0;0;0;0;0;;;;;0;234324;0;False;False;0;0;;C:\Users\Vero\Desktop\Lenel-Logo.png,C:\Users\Vero\Desktop\Page 1.png
 Casa;243242;0;0;0;0;0;;;;;0;dfgdfgd;False;False;False;0;;C:\Users\Vero\Desktop\Lenel-Logo.png,C:\Users\Vero\Desktop\Page 1.png
 Apartamento;324324;0;0;0;0;0;;;;;0;esfdsf;0;False;False;0;0;;C:\Users\Vero\Desktop\Lenel-Logo.png,C:\Users\Vero\Desktop\Page 1.png
+Casa;12345;0;0;0;0;0;;;;;0;Malvin;False;False;False;0;;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg,\\Mac\Home\Desktop\Screen Shot 2018-06-18 at 1.43.41 PM.png
+Casa;1312321;0;0;0;0;0;;;;;0;sdfsfdf;False;False;False;0;fdsfsdf;\\Mac\Home\Desktop\220px-Harry_Potter_character_poster.jpg

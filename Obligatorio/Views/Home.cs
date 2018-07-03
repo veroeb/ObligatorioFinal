@@ -20,17 +20,12 @@ namespace Obligatorio.Views
         Inmobiliaria inmobiliaria = Inmobiliaria.GetInmobiliaria();
         LaunchScreen launchScreen = new LaunchScreen();
         VistaFuncionesInmobiliaria vistaFuncionesInmobiliaria = new VistaFuncionesInmobiliaria();
-
-        //ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
-
-
-        //ManejadorDeArchivos manejadorDeArchivos = new ManejadorDeArchivos();
-        //List<Inmueble> ListaInmuebles { get; set; }
-
+                
         public Home()
         {
             InitializeComponent();
             
+            ///Se agrega una lista de departamentos
             List<String> listaDepartamentos = new List<String>
             {
                 "Canelones", "Colonia", "Maldonado", "Montevideo" 
@@ -38,6 +33,7 @@ namespace Obligatorio.Views
 
             comboBoxDepartamento.DataSource = listaDepartamentos;
 
+            ///Se agrega una lista de ciudades
             List<String> listaCiudades = new List<String>
             {
                 "Ciudad de la Costa", "Colonia del Sacramento", "Las Piedras", "Maldonado", "Montevideo", "Pando", "Piriapolis", "Punta del Este"
@@ -54,9 +50,7 @@ namespace Obligatorio.Views
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //Hide();
-            //NuevoInmueble nuevoInmueble = new NuevoInmueble();
-            //nuevoInmueble.Show();
+            
         }
 
         public void Filtro()
@@ -85,7 +79,7 @@ namespace Obligatorio.Views
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //inmobiliaria.GetListaInmuebles();
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -100,23 +94,22 @@ namespace Obligatorio.Views
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //Inmobiliaria.GetInmobiliaria().VenderAlquilar(InmuebleActual, CompradorActual);
-            //ManagerInmuebles.VenderAlquilar(InmuebleActual, CompradorActual);
+            
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //ManagerInmuebles.
+            
         }
 
         private void btnAgregarComprador_Click(object sender, EventArgs e)
         {
+            ///Se agrega un comprador a la lista de compradores
             Comprador comprador = new Comprador(txtNombreComprador.Text, txtCI.Text, txtCorreo.Text, txtNumero.Text);
             CompradorActual = comprador;
             Visita.AgregarComprador(CompradorActual);
             MessageBox.Show("Comprador actual actualizado y agendado");
             lblNombreComprador.Text = CompradorActual.Nombre;
-            //textBox1.Text = CompradorActual.Nombre;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -126,6 +119,7 @@ namespace Obligatorio.Views
 
         private void btnVenderAlquilar_Click(object sender, EventArgs e)
         {
+            ///Se vende o alquila el inmueble, por lo tanto se elimina de la lista de inmuebles
             InmuebleActual = (gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble);
             Comprador comprador = new Comprador(txtNombreComprador.Text, txtCI.Text, txtCorreo.Text, txtNumero.Text);
             CompradorActual = comprador;
@@ -136,6 +130,7 @@ namespace Obligatorio.Views
 
         private void btnAgendarVisita_Click(object sender, EventArgs e)
         {
+            ///Se agenda una visita para un dia en especifico
             InmuebleActual = (gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble);
             ManagerRecursos.InmuebleComprador = InmuebleActual;
             Visita.AgendarVisita(dateTimePicker1.Text, CompradorActual, InmuebleActual);
@@ -144,6 +139,7 @@ namespace Obligatorio.Views
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
+            ///Se actualiza la lista de inmuebles
             gridInmuebles.DataSource = null;
             List<Inmueble> inmuebles = inmobiliaria.GetListaInmuebles();
             gridInmuebles.DataSource = inmuebles;
@@ -186,11 +182,12 @@ namespace Obligatorio.Views
 
         private void btnMostrarFoto_Click(object sender, EventArgs e)
         {
-            Inmueble seleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
-            if (seleccionado.Fotos == null || seleccionado.Fotos.FirstOrDefault() == "")
+            ///Se muestran las fotos del inmueble
+            Inmueble inmuebleSeleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
+            if (inmuebleSeleccionado.Fotos == null || inmuebleSeleccionado.Fotos.FirstOrDefault() == "")
                 MessageBox.Show("No existen imagenes para mostrar");
             else
-                pbFotos.Load(seleccionado.Fotos[0]);
+                pbFotos.Load(inmuebleSeleccionado.Fotos[0]);
         }
 
         private void button4_Click_2(object sender, EventArgs e)
@@ -205,17 +202,21 @@ namespace Obligatorio.Views
 
         private void btnSiguienteFoto_Click(object sender, EventArgs e)
         {
+            ///Se muestra la foto siguiente
             Inmueble inmuebleSeleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
-            if (inmuebleSeleccionado.Fotos == null)
+            if (inmuebleSeleccionado.Fotos == null || inmuebleSeleccionado.Fotos.FirstOrDefault() == "")
                 MessageBox.Show("No existen imagenes para mostrar");
-            else
+            else if (inmuebleSeleccionado.Fotos.Count() > 0)
                 pbFotos.Load(inmuebleSeleccionado.Fotos[1]);
+            else
+                MessageBox.Show("No hay mas imagenes para mostrar");
         }
 
         private void btnAnteriorFoto_Click(object sender, EventArgs e)
         {
+            ///Se muestra la foto anterior
             Inmueble inmuebleSeleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
-            if (inmuebleSeleccionado.Fotos == null)
+            if (inmuebleSeleccionado.Fotos == null || inmuebleSeleccionado.Fotos.FirstOrDefault() == "")
                 MessageBox.Show("No existen imagenes para mostrar");
             else
                 pbFotos.Load(inmuebleSeleccionado.Fotos[0]);

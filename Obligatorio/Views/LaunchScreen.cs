@@ -29,8 +29,6 @@ namespace Obligatorio.Views
             using (Home Home = new Home())
             {
                 Home.ShowDialog();
-                //Environment.Exit(0);
-                //Application.Exit();
             }
         }
 
@@ -38,11 +36,6 @@ namespace Obligatorio.Views
         {
             Hide();
             nuevoInmueble.Show();
-            //using (NuevoInmueble nuevoInmueble = new NuevoInmueble())
-            //{
-            //    nuevoInmueble.ShowDialog();
-            //    //Application.Exit();
-            //}
         }
 
         private void LaunchScreen_FormClosed(object sender, FormClosedEventArgs e)

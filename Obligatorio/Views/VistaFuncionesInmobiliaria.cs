@@ -29,6 +29,7 @@ namespace Obligatorio.Views
 
         private void btnInmuebles_Click(object sender, EventArgs e)
         {
+            ///Se listan los inmuebles
             gridInmuebles.DataSource = null;
             List<Inmueble> inmuebles = inmobiliaria.GetListaInmuebles();
             gridInmuebles.DataSource = inmuebles;
@@ -41,6 +42,7 @@ namespace Obligatorio.Views
 
         private void btnCompradores_Click(object sender, EventArgs e)
         {
+            ///Se listan los compradores creados alfabeticamente
             List<Comprador> compradores = inmobiliaria.ListaCompradoresAlfabeticamente();
             foreach (Comprador c in compradores)
             {

@@ -27,6 +27,7 @@ namespace Obligatorio.Views
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
+            ///Se crea un apartamento
             Apartamento apartamento = new Apartamento
             {
                 Precio = ManagerRecursos.precio,
@@ -48,22 +49,13 @@ namespace Obligatorio.Views
                 Fotos = ManagerRecursos.fotos
             };
 
+            ///Se agrega el apartamento a la lista de inmuebles
             ManagerInmuebles.AgregarPropiedad(apartamento);
             MessageBox.Show("Propiedad agregada correctamente");
 
 
             Hide();
             home.Show();
-            //using (Home home = new Home())
-            //{
-            //    home.ShowDialog();
-            //    //Application.Exit();
-            //}
-
-            //if (lbFotos.SelectedItem != null)
-            //{
-            //    pbFoto1.Load(lbFotos.SelectedItem.ToString());
-            //}
         }
 
         private void ImagesFile_FileOk(object sender, CancelEventArgs e)
@@ -73,20 +65,10 @@ namespace Obligatorio.Views
 
         private void btnAgregarFotos_Click(object sender, EventArgs e)
         {
-            //if (ImagesFile.ShowDialog() == DialogResult.OK)
-            //{
-            //    //lblImage.Text = openFileDialog1.FileName;
-            //    if(pbFoto1.)
-            //    pbFoto1.Load(ImagesFile.FileName);
-
-            //    //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            //}
             if (ImagesFile.ShowDialog() == DialogResult.OK)
             {
                 lbFotos.Items.Add(ImagesFile.FileName);
                 ManagerRecursos.fotos.Add(ImagesFile.FileName);
-
-                //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
 
@@ -107,7 +89,6 @@ namespace Obligatorio.Views
 
         private void cbBarrio_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //ManagerRecursos.barrio = cbBarrio.SelectedItem.ToString();
         }
 
         private void txtDireccion_TextChanged(object sender, EventArgs e)
@@ -118,7 +99,6 @@ namespace Obligatorio.Views
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
         {
             ManagerRecursos.estado = cbEstado.SelectedItem.ToString();
-            //Enum.TryParse<EstadoInmueble>(cbEstado.SelectedValue.ToString(), out ManagerRecursos.estado);
         }
 
         private void txtConstruccion_TextChanged(object sender, EventArgs e)
@@ -222,7 +202,6 @@ namespace Obligatorio.Views
 
         private void txtTitulo_TextChanged(object sender, EventArgs e)
         {
-            //ManagerRecursos.titulo = txtTitulo.Text;
         }
 
         private void btnHome_Click(object sender, EventArgs e)
