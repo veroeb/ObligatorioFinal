@@ -30,19 +30,7 @@ namespace Obligatorio.Views
         public Home()
         {
             InitializeComponent();
-
-            //comboBoxDepartamento.Items.Add("Ciudad de la Costa");
-            //comboBoxDepartamento.Items.Add("Las Piedras");
-            //comboBoxDepartamento.Items.Add("Maldonado");
-            //comboBoxDepartamento.Items.Add("Montevideo");
-            //comboBoxDepartamento.Items.Add("Pando");
-            //comboBoxDepartamento.Items.Add("Paysandú");
-            //comboBoxDepartamento.Items.Add("Piriápolis");
-            //comboBoxDepartamento.Items.Add("Punta del Este");
-            //comboBoxDepartamento.Items.Add("Rivera");
-            //comboBoxDepartamento.Items.Add("Salto");
-            //comboBoxDepartamento.Items.Add("Tacuarembó");
-
+            
             List<String> listaDepartamentos = new List<String>
             {
                 "Canelones", "Colonia", "Maldonado", "Montevideo" 

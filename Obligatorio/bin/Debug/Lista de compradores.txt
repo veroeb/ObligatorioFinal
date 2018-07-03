@@ -37,3 +37,4 @@
 7/3/2018 10:31:30 AM - Nombre: vero, CI: Ci, Correo: Correo, Telefono: Numero
 7/3/2018 10:31:43 AM - Nombre: vero, CI: Ci, Correo: Correo, Telefono: Numero
 7/3/2018 10:32:48 AM - Nombre: vero, CI: Ci, Correo: Correo, Telefono: Numero
+7/3/2018 10:50:55 AM - Nombre: vero, CI: Ci, Correo: Correo, Telefono: Numero

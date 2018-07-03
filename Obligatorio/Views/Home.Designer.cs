@@ -338,7 +338,7 @@
             this.btnCasa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCasa.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnCasa.Location = new System.Drawing.Point(-6, 237);
+            this.btnCasa.Location = new System.Drawing.Point(-4, 243);
             this.btnCasa.Name = "btnCasa";
             this.btnCasa.Size = new System.Drawing.Size(176, 33);
             this.btnCasa.TabIndex = 7;
@@ -363,7 +363,7 @@
             this.btnApartamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnApartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApartamento.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnApartamento.Location = new System.Drawing.Point(-6, 198);
+            this.btnApartamento.Location = new System.Drawing.Point(-4, 204);
             this.btnApartamento.Name = "btnApartamento";
             this.btnApartamento.Size = new System.Drawing.Size(176, 33);
             this.btnApartamento.TabIndex = 6;
@@ -389,6 +389,7 @@
             // 
             // gridInmuebles
             // 
+            this.gridInmuebles.BackgroundColor = System.Drawing.SystemColors.Control;
             this.gridInmuebles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridInmuebles.GridColor = System.Drawing.SystemColors.Control;
             this.gridInmuebles.Location = new System.Drawing.Point(344, 17);

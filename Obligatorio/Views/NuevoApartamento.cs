@@ -222,7 +222,7 @@ namespace Obligatorio.Views
 
         private void txtTitulo_TextChanged(object sender, EventArgs e)
         {
-            ManagerRecursos.titulo = txtTitulo.Text;
+            //ManagerRecursos.titulo = txtTitulo.Text;
         }
 
         private void btnHome_Click(object sender, EventArgs e)

@@ -78,9 +78,6 @@
             this.cbParrillero = new System.Windows.Forms.ComboBox();
             this.cbGarages = new System.Windows.Forms.ComboBox();
             this.btnHome = new System.Windows.Forms.Button();
-            this.txtTitulo = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             this.lbl = new System.Windows.Forms.Label();
             this.cbPorteria = new System.Windows.Forms.ComboBox();
             this.label25 = new System.Windows.Forms.Label();
@@ -652,37 +649,6 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // txtTitulo
-            // 
-            this.txtTitulo.Location = new System.Drawing.Point(468, 97);
-            this.txtTitulo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(101, 20);
-            this.txtTitulo.TabIndex = 60;
-            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(381, 99);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(36, 13);
-            this.label23.TabIndex = 59;
-            this.label23.Text = "Titulo:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label24.Location = new System.Drawing.Point(379, 54);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(62, 24);
-            this.label24.TabIndex = 58;
-            this.label24.Text = "Titulo";
-            // 
             // lbl
             // 
             this.lbl.AutoSize = true;
@@ -746,9 +712,6 @@
             this.Controls.Add(this.cbPorteria);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.lbl);
-            this.Controls.Add(this.txtTitulo);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label24);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.cbParrillero);
             this.Controls.Add(this.cbGarages);
@@ -866,9 +829,6 @@
         private System.Windows.Forms.ComboBox cbParrillero;
         private System.Windows.Forms.ComboBox cbGarages;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.TextBox txtTitulo;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.ComboBox cbPorteria;
         private System.Windows.Forms.Label label25;

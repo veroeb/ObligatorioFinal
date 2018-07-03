@@ -55,6 +55,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::Obligatorio.Properties.Resources.realEstateWhite;
             this.pictureBox2.Location = new System.Drawing.Point(57, 9);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(55, 49);
@@ -110,7 +111,7 @@
             this.btnInmueble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInmueble.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInmueble.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnInmueble.Location = new System.Drawing.Point(412, 136);
+            this.btnInmueble.Location = new System.Drawing.Point(386, 127);
             this.btnInmueble.Name = "btnInmueble";
             this.btnInmueble.Size = new System.Drawing.Size(276, 144);
             this.btnInmueble.TabIndex = 7;
@@ -126,7 +127,7 @@
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnHome.Location = new System.Drawing.Point(116, 148);
+            this.btnHome.Location = new System.Drawing.Point(90, 139);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(196, 120);
             this.btnHome.TabIndex = 6;
