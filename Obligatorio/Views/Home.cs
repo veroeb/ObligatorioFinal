@@ -187,7 +187,7 @@ namespace Obligatorio.Views
         private void btnMostrarFoto_Click(object sender, EventArgs e)
         {
             Inmueble seleccionado = gridInmuebles.SelectedRows[0].DataBoundItem as Inmueble;
-            if (seleccionado.Fotos == null)
+            if (seleccionado.Fotos == null || seleccionado.Fotos.FirstOrDefault() == "")
                 MessageBox.Show("No existen imagenes para mostrar");
             else
                 pbFotos.Load(seleccionado.Fotos[0]);

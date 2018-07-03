@@ -78,7 +78,7 @@ namespace Obligatorio.Utils
                 }
                 else
                 {
-                    string[] fotosAux = lineaPalabras[18].Split(',');
+                    string[] fotosAux = lineaPalabras[19].Split(',');
 
                     List<string> listaFotos = new List<string>();
 
